@@ -10,8 +10,6 @@ This project is a web application that allows users to track cryptocurrency pric
 6. Installation
 7. Usage
 8. API Endpoints
-9. Contributing
-10. License
 
 ## Introduction
 Cryptocurrency is a rapidly growing market, and many traders and investors are interested in keeping track of the latest price changes for various cryptocurrencies. This web application provides real-time price updates for multiple cryptocurrencies and allows users to subscribe to email notifications for their favorite cryptocurrencies.
@@ -33,7 +31,7 @@ Node.js (v14 or higher)
 npm (Node Package Manager)
 Docker (for deployment)
 
-# Installation
+## Installation
 1. Clone the repository:
 
    ```bash
@@ -62,11 +60,9 @@ Docker (for deployment)
 ![image](https://github.com/anushkapatil18/cryptz/assets/72657551/8e8279a6-9b89-437f-880e-63aa784b3168)
 
 
-# Usage
+## Usage
 Once the application is up and running, you can access the web interface in your browser by navigating to http://localhost:3000. The interface will display real-time price charts for popular cryptocurrencies. Users can enter their email address to subscribe to price update notifications for specific cryptocurrencies.
 
-# API Endpoints
+## API Endpoints
 GET: https://data.binance.com/api/v3/ticker/24hr - to get all deatils of the cryptoz.
 
-# License
-This project is licensed under the MIT License. Feel free to use, modify, and distribute the code for both personal and commercial purposes.

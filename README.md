@@ -1,4 +1,4 @@
-# Crypto Price Update and Email Notification Project
+# Cryptz
 This project is a web application that allows users to track cryptocurrency prices and set alerts for upper and lower limits.
 
 ## Table of Contents

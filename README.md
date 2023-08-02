@@ -1,5 +1,5 @@
 # Crypto Price Update and Email Notification Project
-This project is a web application that allows users to track cryptocurrency prices and receive email notifications for price updates.
+This project is a web application that allows users to track cryptocurrency prices and set alerts for upper and lower limits.
 
 ## Table of Contents
 1. Introduction
@@ -59,14 +59,14 @@ Docker (for deployment)
    cd ..
    docker-compose up -d
 
+![image](https://github.com/anushkapatil18/cryptz/assets/72657551/8e8279a6-9b89-437f-880e-63aa784b3168)
+
 
 # Usage
 Once the application is up and running, you can access the web interface in your browser by navigating to http://localhost:3000. The interface will display real-time price charts for popular cryptocurrencies. Users can enter their email address to subscribe to price update notifications for specific cryptocurrencies.
 
 # API Endpoints
-POST /send_recovery_email: Send an email notification to the user with the latest price update for their subscribed cryptocurrencies.
-Contributing
-Contributions to this project are welcome! If you find any issues or have suggestions for improvements, feel free to open a pull request.
+GET: https://data.binance.com/api/v3/ticker/24hr - to get all deatils of the cryptoz.
 
 # License
 This project is licensed under the MIT License. Feel free to use, modify, and distribute the code for both personal and commercial purposes.
